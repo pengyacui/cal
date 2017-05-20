@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:weightSum="3"
+    >
+
+    <ListView
+        android:id="@+id/standard_show_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="30dp"
+        android:overScrollMode="never"
+        android:stackFromBottom="true"
+        android:layout_weight="1"></ListView>
+    <GridView
+        android:id="@+id/standard_btn_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="30dp"
+        android:numColumns="4"
+        android:background="@color/colorBackgroundDark"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="2"></GridView>
+
+</LinearLayout>

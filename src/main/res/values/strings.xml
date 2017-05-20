@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">关于</string>
+    <string name="action_setting_info">这是一个简单的两个数运算的计算器，多个数运算逻辑复杂，脑细胞可能不够用，目前还没有实现。</string>
+</resources>
